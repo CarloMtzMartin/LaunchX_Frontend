@@ -1,0 +1,98 @@
+.header {
+    height: 170px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 49.5%, rgba(233,243,252,1) 50.5%);
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2A4AC8;
+}
+
+.nav-link {
+    color: gray;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0.5rem 55px !important;
+}
+
+.nav-link-button {
+    background-color: #2A4AC8;
+    border-radius: 10px;
+    padding: 16px 36px !important;
+    color: white
+}
+
+h1, nav {
+    display: inline-block;
+    color: #2848C6;
+    padding: 0 150px;
+}
+
+#schedule .left {
+    width: 50%;
+    padding-left: 150px;
+    position: relative;
+}
+
+#schedule img {
+    width: 50%;
+}
+
+.icon-container {
+    
+}
+
+.icon-bg {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.yellow {
+    background-color: #FFF9E3;
+    color: #FFD012;
+}
+
+.blue {
+    background-color: #E4EBFF;
+    color: #3454D2;
+}
+
+#scheduler {
+    width: 65vw;
+    position: absolute;
+    bottom: 30px;
+    
+}
+
+.scheduler-actions {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.form-submit {
+    background-color: #2A4AC8;
+    color: white;
+    height: 80px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#banner {
+    padding: 0 150px;
+    margin: 90px 0;
+}
+
+#banner img {
+    width: 18%;
+    filter: grayscale(0.6);
+    opacity: 0.2;
+}

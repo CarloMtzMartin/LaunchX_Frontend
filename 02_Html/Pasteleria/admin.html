@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería ...</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    
+    <header>
+        <img class="logo" src="C:\Users\carlo\Downloads\Qarlos Inc Bakeries.png">
+        <hr>
+    </header>
+
+    <ul>
+        <li><a class="active" href="#inventory">Inventario</a></li>
+        <li><a href="#orders">Pedidos</a></li>
+      </ul>
+      
+      <div id="sections">
+        <section id="inventory" class="full">
+            <h2>Inventario Disponibles</h2>
+            <div id="sabores_adornos">
+                <div id="sabores"> 
+                    <h3>Nuestros Sabores</h3>
+                    <hr />
+                    <div>
+                        <label for="sabor_vainilla">Vainilla</label>
+                        <input type="number" id="sabor_vainilla" name="sabor_vainilla" value="15">
+                    </div>
+                    <div class="no-inventory">
+                        <label for="sabor_chocolate">Chocolate</label>
+                        <input type="number" id="sabor_chocolate" name="sabor_chocolate" value="0">
+                    </div>
+                    <div>
+                        <label for="sabor_fresa">Fresa</label>
+                        <input type="number" id="sabor_fresa" name="sabor_fresa" value="8">
+                    </div>
+                    <div>
+                        <label for="sabor_cafe">Café</label>
+                        <input type="number" id="sabor_cafe" name="sabor_cafe" value="10">
+                    </div>
+                    <div>
+                        <label for="sabor_milhojas">Mil Hojas</label>
+                        <input type="number" id="sabor_milhojas" name="sabor_milhojas" value="5">
+                    </div>
+                    <div>
+                        <label for="sabor_pinon">Piñon</label>
+                        <input type="number" id="sabor_pinon" name="sabor_pinon" value="4">
+                    </div>
+                </div>
+                <div id="adornos">
+                    <h3>Nuestros Adornos</h3>
+                    <hr />
+                    <div>
+                        <label for="decor_fondant">Fondant</label>
+                        <input type="number" id="decor_fondant" name="decor_fondant" value="11">
+                    </div>
+                    <div>
+                        <label for="decor_betun">Betún (Chocolate/Vainilla/Fresa)</label>
+                        <input type="number" id="decor_betun" name="decor_betun" value="12">
+                    </div>
+                    <div>
+                        <label for="decor_chispas">Chispas (Chocolate/Chocolate Blanco/Arcoiris)</label>
+                        <input type="number" id="decor_chispas" name="decor_chispas" value="8">
+                    </div>
+                    <div>
+                        <label for="decor_panditas">Panditas</label>
+                        <input type="number" id="decor_panditas" name="decor_panditas" value="4">
+                    </div>
+                    <div>
+                        <label for="decor_mms">M&Ms</label>
+                        <input type="number" id="decor_mms" name="decor_mms" value="8">
+                    </div>
+                </div>
+            </div>
+            <div id="cake_pics">
+                <img src="http://assets.stickpng.com/images/5b432721c051e602a568cccb.png">
+                <img src="http://assets.stickpng.com/images/5b5064cfc051e602a568ce3f.png">
+                <img src="http://assets.stickpng.com/images/5c308ad2a97bc40295eb8406.png">
+                <img src="http://assets.stickpng.com/images/58c57b2609e8bc1b42c7792a.png">
+            </div>
+        </section>
+    
+        <section id="orders" class="full">
+            <h2>Pedidos</h2>
+            <table id="pedidos">
+                <thead>
+                    <th>Nombre Completo</th>
+                    <th>Teléfono</th>
+                    <th>Correo Electrónico</th>
+                    <th>Descripción</th>
+                    <th>Sabores</th>
+                    <th>Adornos</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Carlo Martin</td>
+                        <td>XXX XX XX XXX</td>
+                        <td>carlo_comepasteles@hotmail.com</td>
+                        <td>En forma de cubo. Con mensaje: You rock!!!</td>
+                        <td>Café/Chocolate</td>
+                        <td>Panditas/M&Ms</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+      </div>
+    
+      <!-- <footer id="contacto" class="full">
+        <address>
+            <div>
+                <p>Nuestra direccion</p>
+                Vasco de Quiroga 3200, Santa Fe, Zedec Sta Fé,<br /> 
+                Álvaro Obregón, 01219 <br /> 
+                Ciudad de México, CDMX<br />
+            </div>
+             <div>
+                <p>Nuestro telefono</p>
+                Cel: 722 78 62 485<br />
+                Local: 722 78 62 486
+             </div>
+            <div>
+                <p>Horarios</p>
+                Lunes a Viernes (08:00 - 19:00)<br /> 
+                Sábado (08:00 - 17:00)<br /> 
+                Domingo (10:00 - 17:00)
+            </div> 
+            
+        </address>
+        <div id="map_container">
+            <iframe id= "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d559.5324365266737!2d-99.26438379201845!3d19.366097183495746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201196dca8199%3A0xffe7560012c3a23b!2sMicrosoft%20Corporate%20Building!5e0!3m2!1sen!2smx!4v1646423519524!5m2!1sen!2smx" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+    </footer> -->
+</body>
