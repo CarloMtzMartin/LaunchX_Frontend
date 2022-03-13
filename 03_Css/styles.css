@@ -22,10 +22,13 @@
 }
 
 .nav-link-button {
+    line-height: 72px;
+    width: 225px;
     background-color: #2A4AC8;
     border-radius: 10px;
-    padding: 16px 36px !important;
-    color: white
+    padding: 0 !important;
+    color: white;
+    text-align: center;
 }
 
 h1, nav {
@@ -36,12 +39,16 @@ h1, nav {
 
 #schedule .left {
     width: 50%;
-    padding-left: 150px;
+    padding-left: 180px;
     position: relative;
 }
 
-#schedule img {
+#schedule .img {
     width: 50%;
+    height: 1155px;
+    background-image: url(https://img.freepik.com/free-photo/front-view-female-nurse-white-medical-suit-with-red-mask-injection-her-hands-blue_179666-32947.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .icon-container {
@@ -51,6 +58,8 @@ h1, nav {
 .icon-bg {
     display: inline-block;
     border-radius: 5px;
+    width: 38px;
+    text-align: center;
 }
 
 .yellow {
@@ -75,6 +84,10 @@ h1, nav {
     border-radius: 10px;
 }
 
+.scheduler-actions > div {
+    height: 205px;
+}
+
 .form-submit {
     background-color: #2A4AC8;
     color: white;
@@ -95,4 +108,89 @@ h1, nav {
     width: 18%;
     filter: grayscale(0.6);
     opacity: 0.2;
+}
+
+.hcontainer {
+    margin-right: 200px;
+    margin-top: 160px;
+}
+
+.header-info {
+    font-size: 65px;
+}
+
+.header-title {
+    color: #1F3E72;
+    font-size: 45px;
+}
+
+.header-content {
+    color: #8C96A9;
+    font-size: 27px;
+}
+
+.action-value {
+    font-size: 30px;
+}
+
+#why-should {
+    padding-top: 160px;
+    padding-left: 180px;
+    padding-right: 170px;
+}
+
+.benefit {
+    height: 465px;
+    width: 360px;
+    border: solid #2848C6 3px;
+    padding: 44px;
+}
+
+.benefit .icon {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.icon i {
+    font-size: 38px;
+}
+
+.benefit-title {
+    color: #1F3E72;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.benefit-content {
+    color: gray;
+    font-size: 14px;
+    margin-top: 36px;
+}
+
+footer {
+    padding-top: 90px;
+    padding-left: 180px;
+    padding-right: 170px;
+    background-color: #EEF3FF;
+    font-size: 20px;
+}
+
+.footer-header {
+    font-size: 30px;
+    color: #3151CF;
+    font-weight: 600;
+}
+
+.footer-col {
+    width: 270px;
+}
+
+.footer-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #1F3E72;
 }
