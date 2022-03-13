@@ -142,8 +142,12 @@ h1, nav {
 .benefit {
     height: 465px;
     width: 360px;
-    border: solid #2848C6 3px;
+    border: solid #FAFAFF 3px;
     padding: 44px;
+    border-radius: 10px;
+    -webkit-box-shadow: 13px 32px 59px -34px rgba(51,81,203,0.68);
+    -moz-box-shadow: 13px 32px 59px -34px rgba(51,81,203,0.68);
+    box-shadow: 13px 32px 59px -34px rgba(51,81,203,0.68);
 }
 
 .benefit .icon {
@@ -171,7 +175,20 @@ h1, nav {
     margin-top: 36px;
 }
 
+#preparations {
+    padding-top: 160px;
+    padding-left: 180px;
+    padding-right: 170px;
+}
+
+#contact {
+    padding-top: 160px;
+    padding-left: 180px;
+    padding-right: 170px;
+}
+
 footer {
+    margin-top: 80px;
     padding-top: 90px;
     padding-left: 180px;
     padding-right: 170px;
@@ -193,4 +210,106 @@ footer {
     font-size: 26px;
     font-weight: 600;
     color: #1F3E72;
+}
+
+/* External  */
+
+.preparations{
+    padding-top: 80px;
+}
+.preparation-list{
+    padding-top: 50px;
+    width: 80%;
+}
+.preparation{
+    padding: 14px;
+    position: relative;
+}
+.preparation .icon{
+    font-size: 20px;
+}
+.preparation h4{
+    font-size: 18px;
+    color: #1f3e72;
+    font-weight: 700;
+}
+.collapsee{
+    float:right;
+    cursor: pointer;
+}
+.preparation p{
+    font-size: 15px;
+}
+.collapsed{
+    display: none;
+}
+.preparations .bg{
+    background-image: url("img/preparation-bg.png");
+    background-size: cover;
+    height: 680px;
+}
+.contact{
+    margin-top: 80px;
+}
+.contacts{
+    margin-top: 20px;
+}
+.contact-header{
+    display: flex;
+    margin-top: 60px;
+}
+.contacts h4{
+    font-size: 24px;
+    color: #1f3e72;
+    font-weight: 700;
+}
+.contacts p{
+    padding-top: 0px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.contacts .icon{
+    font-size: 50px;
+}
+.button-light{
+    color: #3351cb;
+    background-color: #f1f5ff;
+    border-radius: 5px;
+    padding: 12px 23px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    
+}
+.contacts .button-light{
+    width: 100%;
+    margin-top: 15px;
+}
+.contacts .button{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+.contacts-bg{
+    background-image: url("img/contacts-bg.png");
+    background-size: cover;
+}
+
+.micon{
+    color: #2b4bc9;
+    background-color: #e9f1fd;
+    padding: 3px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 44px;
+}
+
+.button{
+    color: #fff;
+    background-color: #3050ce;
+    border-radius: 5px;
+    padding: 12px 23px;
+    border: none;
+    font-size: 18px;
 }
