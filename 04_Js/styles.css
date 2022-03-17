@@ -1,0 +1,162 @@
+body {
+    margin: 15px;
+}
+
+.pokedex-left {
+    position: relative;
+    background-color: red;
+    width: 500px;
+    height: 800px;
+    padding: 0 30px;
+    border: solid brown 2px;
+}
+
+.pokedex-join {
+    position: relative;
+    background-color: red;
+    width: 30px;
+    height: 800px;
+    border: solid brown 2px;
+}
+
+.pokedex-right {
+    position: relative;
+    background-color: red;
+    width: 500px;
+    height: 650px;
+    padding: 0 30px;
+    border: solid brown 2px;
+    padding: 30px;
+}
+
+#img-screen {
+    position: relative;
+    top: 25%;
+    background-color: #F1F2D3;
+    width: 100%;
+    height: 300px;
+    border: solid white 30px;
+    border-bottom: solid white 70px;
+    text-align: center;
+}
+
+#controls {
+    position: relative;
+    height: 35%;
+}
+
+.control {
+    position: absolute;
+}
+
+.search-btn {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.confirmation-lights {
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+.c-light {
+    height: 15px;
+    width: 60px;
+    border-radius: 25%;
+    background-color: aquamarine;
+    margin: 6px;
+    transform-box: border-box;
+}
+
+.d-pad {
+    right: 0;
+    bottom: 10%;
+}
+
+.d-pad > span {
+    font-size: 200px;
+    font-weight: 600;
+}
+
+.search-input {
+    background-color: chartreuse;
+    width: 200px;
+    height: 80px;
+    bottom: 30px;
+}
+
+#search-value {
+    background-color: transparent;
+    border: none;
+    line-height: 80px;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+#sprite {
+    height: 80%;
+    object-fit: scale-down;
+}
+
+#name {
+font-weight: 500;
+}
+
+#stats {
+    margin-top: 40px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.bar {
+    position: relative;
+    height: 60px;
+    width: 40px;
+    background-color: gray;  
+}
+
+.bar-filled {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+}
+
+#info_screen {
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+}
+
+#abilities-moves-screen {
+    background-color: black;
+    padding: 20px;
+    height: 40%;
+}
+
+#moves, #abilities {
+    overflow-x: auto;
+    gap: 10px;
+    /*-ms-overflow-style: none;*/  /* IE and Edge */
+    /*scrollbar-width: none;  /* Firefox */
+}
+
+.move, .ability {
+    background-color: aqua;
+    width: fit-content;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+#height, #weight {
+    background-color: black;
+    padding: 20px;
+    color: yellow;
+    width: 45%;
+}
